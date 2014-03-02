@@ -63,7 +63,7 @@ DEFAULT CHARACTER SET `utf8`
 COLLATE utf8_general_ci,
 COMMENT 'stores shops data';
 
-CREATE TABLE sr_users (
+CREATE TABLE users (
     id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
     password CHAR(40) NOT NULL,
@@ -75,7 +75,7 @@ DEFAULT CHARACTER SET `utf8`
 COLLATE utf8_general_ci,
 COMMENT 'stores shops data';
 
-CREATE TABLE sr_groups (
+CREATE TABLE groups (
     id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     created DATETIME,
@@ -84,3 +84,5 @@ CREATE TABLE sr_groups (
 DEFAULT CHARACTER SET `utf8`
 COLLATE utf8_general_ci,
 COMMENT 'stores shops data';
+
+ALTER TABLE posts ADD COLUMN user_id INT(11);
