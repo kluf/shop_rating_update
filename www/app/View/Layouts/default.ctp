@@ -30,10 +30,15 @@
               <a href="#" class="list-group-item active">
                 Cras justo odio
               </a>
-              <a href="sr.loc/shops/" class="list-group-item">Shops</a>
-              <a href="#" class="list-group-item">Morbi leo risus</a>
-              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-              <a href="#" class="list-group-item">Vestibulum at eros</a>
+              <?php echo $this->Html->link('Shops', '/shops/index/', array(
+                  'class' => 'list-group-item'));
+              ?>
+              <?php echo $this->Html->link('Login', '/users/login/', array(
+                  'class' => 'list-group-item'));
+              ?>
+              <?php echo $this->Html->link('Register', '/users/add/', array(
+                  'class' => 'list-group-item'));
+              ?>
             </div>
         <div class="col-xs-12 col-md-8 main-content ">
             <div class="row">
