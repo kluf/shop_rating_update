@@ -1,6 +1,4 @@
 <?php
-App::uses('Folder', 'Utility');
-App::uses('File', 'Utility');
 
 class ShopsController extends AppController {
     public $helpers = array('Html', 'Form');
