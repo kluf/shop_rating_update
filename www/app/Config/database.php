@@ -66,7 +66,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'aaa',
+		'password' => '',
 		'database' => 'shop_rating',
 		'prefix' => '',
 		'encoding' => 'utf8'

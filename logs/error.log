@@ -1,0 +1,12 @@
+[Sun Apr 13 18:31:04.276656 2014] [authz_core:error] [pid 4624:tid 1636] [client 195.160.235.249:53420] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:53:37.526656 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59072] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:53:38.158492 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59072] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/favicon.ico
+[Sun Apr 13 18:53:38.194625 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59072] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/favicon.ico
+[Sun Apr 13 18:54:27.554976 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59082] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:54:28.542281 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59082] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:54:29.433882 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59082] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:54:45.411421 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59085] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Sun Apr 13 18:54:46.690718 2014] [authz_core:error] [pid 4624:tid 1636] [client 127.0.0.1:59086] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Fri May 02 00:39:03.269531 2014] [authz_core:error] [pid 4924:tid 1604] [client 127.0.0.1:56667] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/
+[Fri May 02 00:39:04.054687 2014] [authz_core:error] [pid 4924:tid 1604] [client 127.0.0.1:56667] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/favicon.ico
+[Fri May 02 00:39:04.070312 2014] [authz_core:error] [pid 4924:tid 1604] [client 127.0.0.1:56667] AH01630: client denied by server configuration: E:/Other/Computer/GIT_LOCAL_REPO/SR/www/favicon.ico
