@@ -6275,3 +6275,803 @@ Stack Trace:
 #1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-05-04 23:51:29 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\SR\www\app\Controller\UsersController.php, line 105]
+2014-05-04 23:51:29 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-04 23:51:31 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\SR\www\app\Controller\UsersController.php, line 105]
+2014-05-04 23:51:31 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-04 23:51:32 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\SR\www\app\Controller\UsersController.php, line 105]
+2014-05-04 23:51:32 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 105, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-04 23:52:06 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /users/add
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:52:07 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:52:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:52:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:56:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-04 23:56:39 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-04 23:56:40 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:56:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 23:57:31 Error: [MissingPluginException] Plugin AclExtras could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclExtras',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\Config\bootstrap.php(29): CakePlugin::load('AclExtras')
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Core\Configure.php(92): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Console\ShellDispatcher.php(136): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Console\ShellDispatcher.php(98): ShellDispatcher->_bootstrap()
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Console\ShellDispatcher.php(54): ShellDispatcher->_initEnvironment()
+#6 C:\xampp\htdocs\SR\www\lib\Cake\Console\ShellDispatcher.php(65): ShellDispatcher->__construct(Array)
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Console\cake.php(49): ShellDispatcher::run(Array)
+#8 {main}
+2014-05-05 00:02:06 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/initdb
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:02:07 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:02:07 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:03:37 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/initdb
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:03:37 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:03:37 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:04:44 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/initdb
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:04:45 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:04:45 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:04:47 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/app/users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-05 00:04:49 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-05 00:04:49 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login/
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 00:04:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-05 00:04:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 00:04:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-05 00:04:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 00:04:51 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-05 00:04:51 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 00:04:52 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:04:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:04:55 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\SR\www\app\Model\User.php, line 31]
+2014-05-05 00:04:55 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 00:04:56 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:04:56 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:10 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:13 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:16 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:17 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:22 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:06:29 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:06:29 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:06:30 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:06:33 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:06:34 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:06:35 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:22 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:23 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:23 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:25 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:26 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:26 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /shops/index/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Sho...', '*')
+#2 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Sho...', '*')
+#3 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Sho...')
+#4 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(462): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(ShopsController))
+#7 C:\xampp\htdocs\SR\www\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\xampp\htdocs\SR\www\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\SR\www\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ShopsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-05 00:07:32 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:07:33 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:07:35 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:07:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:07:37 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:07:38 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:35 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:40 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:46 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /users/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 00:08:46 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /users/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\SR\www\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\SR\www\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
