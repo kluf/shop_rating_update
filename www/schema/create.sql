@@ -66,10 +66,8 @@ CREATE TABLE users (
     group_id INT(11) NOT NULL,
     created DATETIME,
     modified DATETIME
-)ENGINE=MyISAM
-DEFAULT CHARACTER SET `utf8`
-COLLATE utf8_bin,
-COMMENT 'stores shops data';
+);
+
 
 CREATE TABLE groups (
     id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
