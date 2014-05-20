@@ -60,24 +60,40 @@ COLLATE utf8_general_ci,
 COMMENT 'stores shops data';
 
 CREATE TABLE users (
-    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL UNIQUE,
-    password CHAR(40) NOT NULL,
-    group_id INT(11) NOT NULL,
-    created DATETIME,
-    modified DATETIME
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(50),
+    role VARCHAR(20),
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
 )ENGINE=MyISAM
 DEFAULT CHARACTER SET `utf8`
 COLLATE utf8_bin,
 COMMENT 'stores shops data';
 
-CREATE TABLE groups (
-    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    created DATETIME,
-    modified DATETIME
-);
+-- *** alternative table for users and groups ***
 
-INSERT INTO groups (name,created,modified) VALUES ('admin', DATETIME, DATETIME),('subscribers', DATETIME, DATETIME), ('users', DATETIME, DATETIME);
+-- CREATE TABLE users (
+--     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     username VARCHAR(50),
+--     password VARCHAR(50),
+--     role VARCHAR(20),
+--     created DATETIME DEFAULT NULL,
+--     modified DATETIME DEFAULT NULL
+-- )ENGINE=MyISAM
+-- DEFAULT CHARACTER SET `utf8`
+-- COLLATE utf8_bin,
+-- COMMENT 'stores shops data';
 
-INSERT INTO users (username, password, group_id, created, modified) VALUES ('admin', '$2a$10$3otKxeQ.UR5I9ICH8Ly4F.GOk4NBTbmPb', 1, DATETIME, DATETIME);
+-- CREATE TABLE groups (
+--     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     groupname VARCHAR(50),
+-- )ENGINE=MyISAM
+-- DEFAULT CHARACTER SET `utf8`
+-- COLLATE utf8_bin,
+-- COMMENT 'stores shops data';
+
+-- INSERT INTO groups (name,created,modified) VALUES ('admin', NOW(), NOW()),('subscribers', NOW(), NOW()), ('users', NOW(), NOW());
+-- END ALTERNATIVE TABLES
+
+INSERT INTO users (username, password, role, created, modified) VALUES ('admin', '$2a$10$3otKxeQ.UR5I9ICH8Ly4F.GOk4NBTbmPb', 'admin', NOW(), NOW());

@@ -11,9 +11,9 @@ class ShopsController extends AppController {
 
     public function add() {
     if ($this->request->is('post')) {
-        $this->request->data['Post']['user_id'] = $this->Auth->user('id');
+        $this->request->data['Shop']['user_id'] = $this->Auth->user('id');
         if ($this->Shop->save($this->request->data)) {
-            $this->Session->setFlash(__('Your post has been saved.', 'default', array('class' => 'alert alert-success')));
+            $this->Session->setFlash(__('New shop has been added.', 'default', array('class' => 'alert alert-success')));
             return $this->redirect(array('action' => 'index'));
         }
     }
@@ -29,21 +29,6 @@ class ShopsController extends AppController {
             throw new NotFoundException(__('Invalid shop'));
         }
         $this->set('shop', $shop);
-    }
-
-    public function isAuthorized($user) {
-        // All registered users can add posts !!! hard code
-        if ($this->action === 'add' || $this->action === 'edit' || $this->action === 'delete') {
-            return true;
-        }
-        // The owner of a post can edit and delete it
-        if (in_array($this->action, array('edit', 'delete'))) {
-            $postId = $this->request->params['pass'][0];
-            if ($this->Shop->isOwnedBy($postId, $user['id'])) {
-                return true;
-            }
-        }
-        return parent::isAuthorized($user);
     }
 
     public function edit($id = null) {
@@ -80,6 +65,23 @@ class ShopsController extends AppController {
             );
             return $this->redirect(array('action' => 'index'));
         }
+    }
+
+    public function isAuthorized($user) {
+        // All registered users can add posts
+        if ($this->action === 'add') {
+            return true;
+        }
+
+        // The owner of a post can edit and delete it
+        if (in_array($this->action, array('edit', 'delete'))) {
+            $shopId = (int) $this->request->params['pass'][0];
+            if ($this->Shop->isOwnedBy($shopId, $user['id'])) {
+                return true;
+            }
+        }
+
+        return parent::isAuthorized($user);
     }
 }
 

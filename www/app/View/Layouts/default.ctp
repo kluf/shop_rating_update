@@ -27,26 +27,29 @@
   <div class="col-xs-18 col-md-12 wrapper">
     <div class="row">
         <div class="col-xs-6 col-md-4 list-group">
-              <a href="#" class="list-group-item active">
-                Cras justo odio
-              </a>
               <?php echo $this->Html->link('Shops', '/shops/index/', array(
                   'class' => 'list-group-item'));
-              ?>
-              <?php echo $this->Html->link('Login', '/users/login/', array(
+              echo $this->Html->link('Comments', '/comments/index/', array(
                   'class' => 'list-group-item'));
-              ?>
-              <?php echo $this->Html->link('Register', '/users/add/', array(
+              echo $this->Html->link('Login', '/users/login/', array(
                   'class' => 'list-group-item'));
+              echo $this->Html->link('Logout', '/users/logout/', array(
+                  'class' => 'list-group-item'));
+              echo $this->Html->link('Register', '/users/add/', array(
+                  'class' => 'list-group-item'));
+              var_dump($_COOKIE);
               ?>
             </div>
         <div class="col-xs-12 col-md-8 main-content ">
             <div class="row">
                 <div class="col-xs-18 col-md-12">
                     <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Library</a></li>
-                        <li class="active">Data</li>
+                        <?php
+                          $currentUrl = explode('/',Router::url());
+                          foreach ($currentUrl as $value) {
+                              echo "<li><a href='#'>{$value}</a></li>";
+                          }
+                        ?>
                     </ol>
                 </div>
                 <div class="ccol-xs-18 col-md-12 panel panel-default">

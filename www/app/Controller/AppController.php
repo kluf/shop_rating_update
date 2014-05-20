@@ -21,49 +21,45 @@
 
 App::uses('Controller', 'Controller');
 
+/**
+ * Application Controller
+ *
+ * Add your application-wide methods in the class below, your controllers
+ * will inherit them.
+ *
+ * @package		app.Controller
+ * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
+ */
 class AppController extends Controller {
+
     public $components = array(
-        'Acl',
+        'Session',
         'Auth' => array(
-            'authorize' => array(
-                'Actions' => array('actionPath' => 'controllers')
-            )
-        ),
-        'Session'
+            'loginRedirect' => array(
+                'controller' => 'shops',
+                'action' => 'index'
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'pages',
+                'action' => 'display',
+                'home'
+            ),
+            'authorize' => array('Controller')
+        )
     );
-    public $helpers = array('Html', 'Form', 'Session');
 
-public function beforeFilter() {
-    parent::beforeFilter();
-    $this->Auth->allow('initDB'); // We can remove this line after we're finished
-}
+    public function beforeFilter() {
+        $this->Auth->allow('index', 'view');
+    }
 
-public function initDB() {
-    $group = $this->User->Group;
+    public function isAuthorized($user) {
+        // Admin can access every action
+        if (isset($user['role']) && $user['role'] === 'admin') {
+            return true;
+        }
 
-    // Allow admins to everything
-    $group->id = 1;
-    $this->Acl->allow($group, 'controllers');
+        // Default deny
+        return false;
+    }
 
-    // allow managers to posts and widgets
-    $group->id = 2;
-    $this->Acl->deny($group, 'controllers');
-    $this->Acl->allow($group, 'controllers/Posts');
-    $this->Acl->allow($group, 'controllers/Widgets');
-
-    // allow users to only add and edit on posts and widgets
-    $group->id = 3;
-    $this->Acl->deny($group, 'controllers');
-    $this->Acl->allow($group, 'controllers/Posts/add');
-    $this->Acl->allow($group, 'controllers/Posts/edit');
-    $this->Acl->allow($group, 'controllers/Widgets/add');
-    $this->Acl->allow($group, 'controllers/Widgets/edit');
-
-    // allow basic users to log out
-    $this->Acl->allow($group, 'controllers/users/logout');
-
-    // we add an exit to avoid an ugly "missing views" error message
-    echo "all done";
-    exit;
-}
 }
